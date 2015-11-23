@@ -193,7 +193,7 @@ IF (ASPECT_USE_FP_EXCEPTIONS)
   ENDIF()
 ENDIF()
 
-
+target_link_libraries(aspect ${CMAKE_DL_LIBS})
 
 MESSAGE(STATUS "Writing config into detailed.log...")
 LIST(APPEND CMAKE_MODULE_PATH
